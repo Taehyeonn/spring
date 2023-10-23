@@ -24,7 +24,7 @@ public class ComponentFilerAppConfigTest {
 
         assertThrows(
                 NoSuchBeanDefinitionException.class,
-                () -> ac.getBean("beanB", BeanB.class);
+                () -> ac.getBean("beanB", BeanB.class));
     }
 
     @Configuration
